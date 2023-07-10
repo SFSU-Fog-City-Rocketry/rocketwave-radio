@@ -1,0 +1,26 @@
+body {
+  background-color: #008080;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.horizontal button {
+  margin-right: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.loading {
+  color: #008080;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
